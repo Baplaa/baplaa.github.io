@@ -1,0 +1,41 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #dddddd;
+  font-family: "Aresenal", sans-serif;
+  position: sticky;
+  top: 0px;
+}
+
+.nav_link_list {
+  display: flex;
+  top: 1em;
+}
+
+.nav_link_a {
+  margin: 0px;
+  color: #171a1b;
+  font-weight: 700;
+  display: flex;
+  color: #000000;
+  padding: 14px 16px;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-size: 1em;
+  transition: opacity 300ms ease;
+}
+
+.nav_link {
+  list-style-type: none;
+  padding-right: 1em;
+}
