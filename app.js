@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/templates/index.html'))
 })
 
-app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, '/templates/about.html'))
+app.get('/project', (req, res) => {
+    res.sendFile(path.join(__dirname, '/templates/project.html'))
 })
 
 app.get('/contact', (req, res) => {
