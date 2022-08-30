@@ -3,20 +3,21 @@ function navs() {
     nav_div.insertAdjacentHTML("beforebegin",
     `
         <nav>
+            <h1 class="header_name">TRISTAN LINGAT</h1>
             <ul class="nav_link_list">
             <li class="nav_link">
                 <a href="/" class="nav_link_a">
-                    Home
+                    HOME
                 </a>
             </li>
             <li class="nav_link">
                 <a href="about" class="nav_link_a">
-                    About
+                    ABOUT
                 </a>
             </li>
             <li class="nav_link">
             <a href="contact" class="nav_link_a">
-                Contact
+                CONTACT
             </a>
         </li>
         </nav>
