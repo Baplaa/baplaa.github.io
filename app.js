@@ -6,8 +6,18 @@ const app = express()
 const port = 8080
 const path = require('path')
 
-app.get('', (req, res) => {
+app.use(express.static(path.join(__dirname, "templates")))
+
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/templates/index.html'))
+})
+
+app.get('/about', (req, res) => {
+    res.sendFile(path.join(__dirname, '/templates/about.html'))
+})
+
+app.get('/contact', (req, res) => {
+    res.sendFile(path.join(__dirname, '/templates/contact.html'))
 })
 
 app.listen(port, () => console.log('Listening on port 8080'))
