@@ -48,3 +48,36 @@ nav {
 body {
   background-color: #bbbbbb;
 }
+
+/* INDEX */
+
+.index_container {
+  display: flex;
+  justify-content: center;
+}
+
+.greetings_container {
+  display: flex;
+  flex-direction: column;
+  padding: 14.5em 7em;
+}
+
+.greetings_container h1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 3em;
+}
+
+.greetings_container p {
+  padding-top: 1em;
+  width: 60%;
+  font-family: "Noto Serif Telugu", serif;
+  font-size: 1.7em;
+  line-height: 1.95em;
+  z-index: 100;
+}
+
+.selfie {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+}
