@@ -11,8 +11,8 @@ function navs() {
                 </a>
             </li>
             <li class="nav_link">
-                <a href="project" class="nav_link_a">
-                    PROJECT
+                <a href="projects" class="nav_link_a">
+                    PROJECTS
                 </a>
             </li>
             <li class="nav_link">
