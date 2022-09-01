@@ -49,6 +49,15 @@ body {
   background-color: #bbbbbb;
 }
 
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* INDEX */
 
 .index_container {
@@ -80,4 +89,60 @@ body {
   position: absolute;
   top: 25%;
   left: 60%;
+}
+
+/* PROJECTS */
+
+.project_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.academic_h1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 3em;
+  position: absolute;
+  top: 20%;
+  left: 3.4%;
+}
+
+.academics_container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 14em;
+  padding-left: 4em;
+}
+
+.academics_container h1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 1.5em;
+  line-height: 3em;
+}
+
+.academics_container p {
+  font-family: "Noto Serif Telugu", serif;
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+.academic {
+  padding-right: 4em;
+}
+
+.tech {
+  padding-top: 1em;
+}
+
+.academic_item {
+  width: 550px;
+  height: 263px;
+}
+
+.project_h1 {
+  font-family: "Secular One", sans-serif;
+  font-size: 3em;
+  position: absolute;
+  top: 91%;
+  left: 3.4%;
 }
