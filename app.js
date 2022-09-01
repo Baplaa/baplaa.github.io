@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/templates/index.html'))
 })
 
-app.get('/project', (req, res) => {
+app.get('/projects', (req, res) => {
     res.sendFile(path.join(__dirname, '/templates/project.html'))
 })
 
