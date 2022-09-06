@@ -63,12 +63,16 @@ body {
 .index_container {
   display: flex;
   justify-content: center;
+  margin-top: 7%;
+  margin-left: 10%;
+  width: 80%;
 }
 
 .greetings_container {
   display: flex;
   flex-direction: column;
-  padding: 14.5em 7em;
+  width: 50%;
+  margin-right: 5%;
 }
 
 .greetings_container h1 {
@@ -77,18 +81,14 @@ body {
 }
 
 .greetings_container p {
-  padding-top: 1em;
-  width: 60%;
   font-family: "Noto Serif Telugu", serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
   line-height: 1.95em;
-  z-index: 100;
 }
 
 .selfie {
-  position: absolute;
-  top: 25%;
-  left: 60%;
+  width: 400px;
+  height: 400px;
 }
 
 /* PROJECTS */
