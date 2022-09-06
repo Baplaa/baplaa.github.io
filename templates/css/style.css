@@ -97,21 +97,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 7%;
+  margin-left: 33%;
+  margin-bottom: 7%;
+  width: 80%;
 }
 
 .academic_h1 {
   font-family: "Secular One", sans-serif;
   font-size: 3em;
-  position: absolute;
-  top: 20%;
-  left: 3.4%;
-}
-
-.academics_container {
-  display: flex;
-  flex-direction: row;
-  padding-top: 14em;
-  padding-left: 4em;
 }
 
 .academics_container h1 {
@@ -127,7 +121,7 @@ body {
 }
 
 .academic {
-  padding-right: 4em;
+  padding-top: 5%;
 }
 
 .tech {
