@@ -47,6 +47,7 @@ nav {
 
 body {
   background-color: #bbbbbb;
+  margin-bottom: 7%;
 }
 
 .scroll::-webkit-scrollbar {
@@ -62,17 +63,14 @@ body {
 
 .index_container {
   display: flex;
-  justify-content: center;
   margin-top: 7%;
-  margin-left: 10%;
-  width: 80%;
 }
 
 .greetings_container {
   display: flex;
   flex-direction: column;
+  margin-top: 3%;
   width: 50%;
-  margin-right: 5%;
 }
 
 .greetings_container h1 {
@@ -91,51 +89,52 @@ body {
   height: 400px;
 }
 
-/* PROJECTS */
-
-.project_container {
+.fix {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 7%;
-  margin-left: 33%;
-  margin-bottom: 7%;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.academic_h1 {
+/* SECTION IDs */
+
+#section_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7%;
+}
+
+#section_container h1 {
   font-family: "Secular One", sans-serif;
   font-size: 3em;
 }
 
-.academics_container h1 {
+#section_item {
+  padding-top: 5%;
+}
+
+#section_item p {
+  font-family: "Noto Serif Telugu", serif;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+#section_item h1 {
   font-family: "Secular One", sans-serif;
   font-size: 1.5em;
   line-height: 3em;
 }
 
-.academics_container p {
-  font-family: "Noto Serif Telugu", serif;
-  font-size: 1em;
-  line-height: 1.3em;
+#section_item img {
+  width: 550px;
+  height: 263px;
 }
 
-.academic {
-  padding-top: 5%;
-}
+/* PROJECTS */
 
 .tech {
   padding-top: 1em;
 }
 
-.academic_item {
-  width: 550px;
-  height: 263px;
-}
-
-.project_h1 {
-  font-family: "Secular One", sans-serif;
-  font-size: 3em;
-  position: absolute;
-  top: 91%;
-  left: 3.4%;
-}
+/* PASSIONS */
