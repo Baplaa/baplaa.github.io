@@ -12,12 +12,4 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/templates/index.html'))
 })
 
-app.get('/projects', (req, res) => {
-    res.sendFile(path.join(__dirname, '/templates/project.html'))
-})
-
-app.get('/contact', (req, res) => {
-    res.sendFile(path.join(__dirname, '/templates/contact.html'))
-})
-
 app.listen(port, () => console.log('Listening on port 8080'))
