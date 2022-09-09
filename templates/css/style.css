@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: inherit;
   margin: 0;
@@ -96,37 +100,37 @@ body {
   padding-right: 5%;
 }
 
-/* SECTION IDs */
+/* SECTIONS */
 
-#section_container {
+.section_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 7%;
 }
 
-#section_container h1 {
+.section_container h1 {
   font-family: "Secular One", sans-serif;
   font-size: 3em;
 }
 
-#section_item {
+.section_item {
   padding-top: 5%;
 }
 
-#section_item p {
+.section_item p {
   font-family: "Noto Serif Telugu", serif;
   font-size: 1em;
   line-height: 1.5em;
 }
 
-#section_item h1 {
+.section_item h1 {
   font-family: "Secular One", sans-serif;
   font-size: 1.5em;
   line-height: 3em;
 }
 
-#section_item img {
+.section_item img {
   width: 550px;
   height: 263px;
 }
