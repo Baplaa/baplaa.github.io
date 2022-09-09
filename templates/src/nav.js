@@ -6,8 +6,8 @@ function navs() {
             <h1 class="header_name">TRISTAN LINGAT</h1>
             <ul class="nav_link_list">
             <li class="nav_link">
-                <a href="#home" class="nav_link_a">
-                    HOME
+                <a href="#insight" class="nav_link_a">
+                    INSIGHT
                 </a>
             </li>
             <li class="nav_link">
