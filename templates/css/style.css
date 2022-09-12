@@ -89,8 +89,9 @@ body {
 }
 
 .selfie {
-  width: 400px;
-  height: 400px;
+  margin-top: 2%;
+  width: 450px;
+  height: 450px;
 }
 
 .fix {
@@ -98,6 +99,17 @@ body {
   justify-content: space-evenly;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.contacts_container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+}
+
+.contacts_container img {
+  width: 60px;
+  height: 60px;
 }
 
 /* SECTIONS */
